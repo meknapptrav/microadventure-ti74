@@ -15,5 +15,11 @@ single-line LCD display.  It can display 31 characters on the screen at a time, 
 standard version of BASIC, with some special commands to make working with a single line display easier.
 
 # About these listings
-The listings for each novel are organized in a directory named for the novel number and title.  The first commit for each program is the
-listing as it appears in the novel.  Additional commits are adjustments to make the program function properly on the TI-74.
+The listings for each novel are organized in a directory named for the novel number and title.  There are several branches available:  
+- **published** the BASIC listing as it appears in the novel.  It is the IBM PC version.
+- **ti74** the version adapted for running on the TI-74
+- **answer** if the novel has you correcting a bug in the program, this is the corrected version for the IBM PC.
+
+# To experience the novels online 
+Check out the [micro adventure website](http://auri-microadventure.azurewebsites.net) which has online versions of some of the novels, with an integrated
+BASIC emulater for running the programs on screen!
