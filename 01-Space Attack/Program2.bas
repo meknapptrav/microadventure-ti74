@@ -9,7 +9,5 @@
 90 PRINT "Blast-Off!!"
 100 END
 110 PRINT "Rocket has overhheated on the launch pad"
-115 PAUSE
 120 PRINT "This has been your first and final act"
-125 PAUSE
 130 END
