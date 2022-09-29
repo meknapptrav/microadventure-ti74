@@ -18,7 +18,7 @@ standard version of BASIC, with some special commands to make working with a sin
 The listings for each novel are organized in a directory named for the novel number and title.  There are several branches available:  
 - **published** the BASIC listing as it appears in the novel.  It is the IBM PC version.
 - **ti74** the version adapted for running on the TI-74
-- **answer** if the novel has you correcting a bug in the program, this is the corrected version for the IBM PC.
+- **answer** if the novel has you correcting a bug in the program, this is the corrected version for the IBM PC.  (You must fix the TI-74 version yourself!)
 
 # To experience the novels online 
 Check out the [micro adventure website](http://auri-microadventure.azurewebsites.net) which has online versions of some of the novels, with an integrated
