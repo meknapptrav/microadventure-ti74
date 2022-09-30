@@ -5,17 +5,17 @@
 7 REM But leave DATA in memory
 8 REM Retype DATA from Program5 if necessary
 10 DIM Q(5)
-20 A$ = ""
-30 PRINT "Press ENTER to decode DATA in memory":PAUSE
-40 RESTORE 1000
+20 PRINT "Press ENTER to decode DATA in memory":PAUSE
+30 RESTORE 1000
+40 A$ = ""
 60 FOR J=1 to 4
 70 READ Q(1),Q(2),Q(3),Q(4),Q(5)
 80 IF Q(1)=0 THEN GOTO 150
 90 FOR I=1 TO 5
-      100 A$=A$+CHR$(Q(I)):REM not working
+100 A$=A$&CHR$(Q(I))
 110 NEXT I
 120 NEXT J
 130 PRINT A$:PAUSE
-140 GOTO 20
+140 GOTO 40
 150 PRINT A$:PAUSE
 160 END 
