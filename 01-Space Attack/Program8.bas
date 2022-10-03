@@ -1,0 +1,28 @@
+10 INPUT "Enter password>";C$
+20 S$="ENABLED"
+30 IF S$="DISABLED" THEN GOTO 170
+40 IF C$<>"SCORPIO" THEN GOTO 170
+50 FOR I=1 TO 5
+60 DISPLAY AT(1);"Circuit #";I;" deactivated"
+70 FOR K=220 TO 880 STEP 10
+80 GOSUB 300
+85 DISPLAY AT(31);D$;
+90 NEXT K
+100 NEXT I
+110 FOR K=880 TO 220 STEP -10
+130 NEXT K
+135 PRINT
+140 PRINT "All circuits shut down":PAUSE 1.2
+150 PRINT "You really turn me off":PAUSE 1.2
+160 END 
+170 PRINT "Get ready to be gassed":PAUSE 1
+180 PRINT "PSSSSSSSSSSSSSS":PAUSE 1
+220 PRINT "By the time you see this":PAUSE 1
+230 PRINT "It will be too late for ACT":PAUSE
+240 END
+300 IF D$="!" THEN D$="o"
+310 IF D$="*" THEN D$="!"
+320 IF D$="O" THEN D$="*"
+330 IF D$="o" THEN D$="O"
+340 ID D$="" THEN D$="o"
+350 RETURN
