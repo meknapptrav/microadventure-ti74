@@ -1,0 +1,24 @@
+10 INPUT "Enter password";C$
+20 S$="ENABLED"
+30 IF S$="DISABLED" THEN GOTO 170
+40 IF C$<>"SCORPIO" THEN GOTO 170
+50 FOR I=1 TO 5
+60 PRINT "Circuit #";I;" deactivated"
+70 FOR K=220 TO 880 STEP 5
+80 SOUND K,.5
+90 NEXT K
+100 NEXT I
+110 FOR K=880 TO 220 STEP -5
+120 SOUND K,.5
+130 NEXT K
+140 PRINT "All circuits shut down"
+150 PRINT "You really turn me off"
+160 END
+170 PRINT "Get ready to be gassed"
+180 PRINT "PSSSSSSSSSSSSSS"
+190 FOR J=1 TO 5
+200 SOUND 220,2:SOUND 146,2
+210 NEXT J
+220 PRINT "By the time you see this"
+230 PRINT "It will be too late for ACT"
+240 END
