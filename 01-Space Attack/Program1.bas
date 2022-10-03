@@ -5,6 +5,7 @@
 50 PRINT CHR$(A);
 60 NEXT N
 70 PRINT:PAUSE
-90 INPUT "Decode another message? (Y/N)";B$
-100 IF B$="Y" OR B$="Y" THEN GOTO 10
+90 DISPLAY ERASE ALL AT(1);"Decode another message? (Y/N);"
+95 ACCEPT AT(30)SIZE(1)VALIDATE("YN") B$
+100 IF B$="Y" THEN GOTO 10
 110 END
