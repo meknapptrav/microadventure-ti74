@@ -6,7 +6,7 @@
 60 FOR I=1 TO 300
 70 NEXT I
 80 GOTO 20
-90 PRINT "Blast-Off!!"
+90 PRINT "Blast-Off!!":PAUSE
 100 END
 110 PRINT "Rocket has overhheated on the launch pad"
 115 PAUSE
