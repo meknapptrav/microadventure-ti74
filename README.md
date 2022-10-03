@@ -29,7 +29,7 @@ Sometimes I make some rather major changes to the programs to work well on the T
 - I also frequently will use ACCEPT instead of INPUT because it has some built-in validation options that simplify the code, and can be used in conjunction with DISPLAY for a better interface.
 - The books will sometimes list the input data for a program in the text, and have you enter it interactively in your BASIC program.  I modify the program to use DATA/READ statements instead.  This way you can enter the data once, and be able to run the program many times without having to re-enter data.  This is generally a good idea because many BASIC programs use the DATA/READ concept.  
 - Another advantage of using DATA statements, is that if two programs share DATA, you can leave the DATA statements in memory and not have to retype them for the second program.  (Clear just the program code using something like DELETE -999 as I start the DATA at 1000)
-- There are no SOUND commands on the TI-74, so I just handle it the same way they do the TRS-80 in the book (which also has no sound)
+- There are no SOUND commands on the TI-74, so I either handle it the same way they do the TRS-80 in the book (which also has no sound), or I implement a "visual effect".
 - 
 # To experience the novels online 
 Check out the [micro adventure website](http://auri-microadventure.azurewebsites.net) which has online versions of some of the novels, with an integrated
