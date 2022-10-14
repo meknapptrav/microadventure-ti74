@@ -9,10 +9,13 @@ and ran in a traditional BASIC interpreter.  The programs enhance the story in t
 In the first novel, "Space Attack", ACT has provided you with a "special portable unit" for your field assignments.  It's described as
 "state-of-the-art hardware packed into a machine the size of a pocket radio."  I think the Ti-74 BASICALC fits this description nicely.
 
-# About the Ti-74 BASICALC
+# About the TI-74 BASICALC
 Released in 1985, the [TI-74](https://en.wikipedia.org/wiki/TI-74) is a scientific calculator that is programmable using BASIC.  It has a
 single-line LCD display.  It can display 31 characters on the screen at a time, from a scrollable 80 character line.  It runs a fairly
 standard version of BASIC, with some special commands to make working with a single line display easier.
+
+## Saving your programs on the TI-74
+Check out [this project](https://github.com/molleraj/ti95interface) to build a Hexbus interface that can be used on the TI-74/TI-95 and the CC40.  I'm currently experimenting with mine and will update this page with how it goes!
 
 # About these listings
 The listings for each novel are organized in a directory named for the novel number and title.  There are several branches available:  
